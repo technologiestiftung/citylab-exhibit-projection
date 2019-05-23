@@ -42,7 +42,9 @@
           "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
           "type": "geojson",
           "data": "funding.geojson",
-          "attribute": "value"
+          "attribute": "value",
+          "extent": [0, 255732383],
+          "colors": ["rgba(11,138,221,0.1)","rgba(11,138,221,1)"]
         }
       ]
     },

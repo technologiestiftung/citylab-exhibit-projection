@@ -165,7 +165,7 @@ const makeMap = (contentId, mapId) => {
 			});
 
 			const scale = d3.scaleLinear()
-				.domain(d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
+				.domain(("extent" in mapConfig) ? mapConfig.extent : d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
 				.range(("colors" in mapConfig) ? mapConfig.colors : ["#0042FF", "#FF003F"]);
 
 			dataLayer.selectAll("*").remove();
