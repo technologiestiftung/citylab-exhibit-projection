@@ -154,6 +154,8 @@ const makeMap = (contentId, mapId) => {
 	d3.select("#content-title").html(mapConfig.title[lang]);
 	d3.select("#content-description").html(mapConfig.description[lang]);
 
+	dataLayer.selectAll("*").remove();
+
 	// Make Map
 
 	d3.json("data/" + mapConfig.data)
@@ -167,8 +169,6 @@ const makeMap = (contentId, mapId) => {
 			const scale = d3.scaleLinear()
 				.domain(("extent" in mapConfig) ? mapConfig.extent : d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
 				.range(("colors" in mapConfig) ? mapConfig.colors : ["#0042FF", "#FF003F"]);
-
-			dataLayer.selectAll("*").remove();
 
 			dataLayer.selectAll("path")
 				.data(data.features)
