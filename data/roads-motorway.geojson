@@ -1,0 +1,1981 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-18T07:15:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4525994",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4412751,
+            52.4628639
+          ],
+          [
+            13.4400369,
+            52.4628423
+          ]
+        ]
+      },
+      "id": "way/4525994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4525995",
+        "destination": "Dresden;Flughafen Schönefeld;Neukölln;Buschkrugallee;Britzer Damm",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4165409,
+            52.4605863
+          ],
+          [
+            13.4171495,
+            52.4605949
+          ],
+          [
+            13.4177513,
+            52.4606492
+          ],
+          [
+            13.4179325,
+            52.4606741
+          ],
+          [
+            13.4184095,
+            52.4607407
+          ],
+          [
+            13.419197,
+            52.4609378
+          ],
+          [
+            13.4201134,
+            52.461176
+          ],
+          [
+            13.4202538,
+            52.4612024
+          ],
+          [
+            13.4207624,
+            52.4612966
+          ],
+          [
+            13.4213337,
+            52.4613537
+          ],
+          [
+            13.4218096,
+            52.4613857
+          ],
+          [
+            13.4223123,
+            52.4613942
+          ],
+          [
+            13.4228103,
+            52.4613755
+          ],
+          [
+            13.4235676,
+            52.4612894
+          ],
+          [
+            13.4243195,
+            52.4612161
+          ],
+          [
+            13.4251324,
+            52.4612094
+          ],
+          [
+            13.4261407,
+            52.4612764
+          ]
+        ]
+      },
+      "id": "way/4525995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4525997",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4412839,
+            52.462729
+          ],
+          [
+            13.4424132,
+            52.4627395
+          ],
+          [
+            13.4435571,
+            52.4627692
+          ],
+          [
+            13.4444584,
+            52.4628106
+          ]
+        ]
+      },
+      "id": "way/4525997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4525999",
+        "destination": "Hamburg;Tempelhof",
+        "destination:ref": "A 100",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4518612,
+            52.4639714
+          ],
+          [
+            13.4513192,
+            52.4639423
+          ],
+          [
+            13.4509857,
+            52.4639034
+          ],
+          [
+            13.4506604,
+            52.4638573
+          ],
+          [
+            13.449757,
+            52.4636939
+          ],
+          [
+            13.4495104,
+            52.4636804
+          ]
+        ]
+      },
+      "id": "way/4525999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4920940",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4539361,
+            52.4633602
+          ],
+          [
+            13.4541131,
+            52.4632521
+          ],
+          [
+            13.4541629,
+            52.4631621
+          ]
+        ]
+      },
+      "id": "way/4920940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/19791144",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.451831,
+            52.4641303
+          ],
+          [
+            13.45154,
+            52.4641133
+          ],
+          [
+            13.4510761,
+            52.4640629
+          ],
+          [
+            13.4506754,
+            52.4639975
+          ]
+        ]
+      },
+      "id": "way/19791144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22762351",
+        "bridge": "yes",
+        "destination": "Magdeburg;Leipzig;Dresden;Frankfurt (Oder);Johannisthaler Chaussee;Flughafen Schönefeld;Späthstraße",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4570947,
+            52.4597884
+          ],
+          [
+            13.4578259,
+            52.458851
+          ]
+        ]
+      },
+      "id": "way/22762351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22762353",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof;Buschkrugallee;Grenzallee",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4580437,
+            52.458917
+          ],
+          [
+            13.4572814,
+            52.4598438
+          ]
+        ]
+      },
+      "id": "way/22762353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22762354",
+        "destination": "Hamburg;Tempelhof;Buschkrugallee;Grenzallee",
+        "highway": "motorway",
+        "lanes": "4",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4572814,
+            52.4598438
+          ],
+          [
+            13.4556167,
+            52.4618604
+          ]
+        ]
+      },
+      "id": "way/22762354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22762378",
+        "bridge": "yes",
+        "destination": "Magdeburg;Leipzig;Dresden;Frankfurt (Oder);Schönefeld Nord;Flughafen Schönefeld",
+        "hazmat": "no",
+        "hazmat:B": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Teltowkanalbrücke",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt",
+        "traffic_sign": "DE:261,DE:1014-50"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5189562,
+            52.4271097
+          ],
+          [
+            13.519249,
+            52.4269824
+          ],
+          [
+            13.5196393,
+            52.4267449
+          ],
+          [
+            13.5200249,
+            52.4264923
+          ],
+          [
+            13.5204779,
+            52.4261253
+          ]
+        ]
+      },
+      "id": "way/22762378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159658",
+        "bridge": "yes",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4444584,
+            52.4628106
+          ],
+          [
+            13.4451729,
+            52.4628659
+          ]
+        ]
+      },
+      "id": "way/24159658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159660",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4451025,
+            52.4629815
+          ],
+          [
+            13.4443751,
+            52.4629283
+          ]
+        ]
+      },
+      "id": "way/24159660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159661",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4443751,
+            52.4629283
+          ],
+          [
+            13.4435523,
+            52.4628947
+          ],
+          [
+            13.442407,
+            52.4628727
+          ],
+          [
+            13.4412751,
+            52.4628639
+          ]
+        ]
+      },
+      "id": "way/24159661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159662",
+        "bridge": "yes",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "4",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4477671,
+            52.4632374
+          ],
+          [
+            13.4481729,
+            52.4633017
+          ]
+        ]
+      },
+      "id": "way/24159662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159663",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4481729,
+            52.4633017
+          ],
+          [
+            13.4502641,
+            52.4636576
+          ]
+        ]
+      },
+      "id": "way/24159663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159666",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4481047,
+            52.4634232
+          ],
+          [
+            13.4477053,
+            52.4633531
+          ]
+        ]
+      },
+      "id": "way/24159666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159670",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4502641,
+            52.4636576
+          ],
+          [
+            13.4504068,
+            52.4637186
+          ],
+          [
+            13.4505418,
+            52.4637419
+          ],
+          [
+            13.4509896,
+            52.4638083
+          ],
+          [
+            13.4512044,
+            52.4638383
+          ],
+          [
+            13.4514303,
+            52.4638595
+          ],
+          [
+            13.4516633,
+            52.4638744
+          ],
+          [
+            13.4518639,
+            52.4638747
+          ]
+        ]
+      },
+      "id": "way/24159670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159672",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof",
+        "destination:ref": "A 100",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4540475,
+            52.4634231
+          ],
+          [
+            13.4538977,
+            52.4635111
+          ],
+          [
+            13.4536676,
+            52.4636217
+          ],
+          [
+            13.4532575,
+            52.4637773
+          ],
+          [
+            13.4529086,
+            52.4638662
+          ],
+          [
+            13.4526207,
+            52.4639144
+          ],
+          [
+            13.4522841,
+            52.4639545
+          ],
+          [
+            13.4518612,
+            52.4639714
+          ]
+        ]
+      },
+      "id": "way/24159672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159674",
+        "bridge": "yes",
+        "destination": "Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4518433,
+            52.4636955
+          ],
+          [
+            13.4520676,
+            52.4636805
+          ]
+        ]
+      },
+      "id": "way/24159674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159675",
+        "destination": "Grenzallee",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt",
+        "turn:lanes": "|merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4543201,
+            52.4639896
+          ],
+          [
+            13.4548603,
+            52.4641365
+          ],
+          [
+            13.4552708,
+            52.4642685
+          ],
+          [
+            13.4554445,
+            52.4643386
+          ],
+          [
+            13.4558496,
+            52.4645022
+          ]
+        ]
+      },
+      "id": "way/24159675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24159676",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4545918,
+            52.464225
+          ],
+          [
+            13.4543739,
+            52.4641882
+          ],
+          [
+            13.4541574,
+            52.4641582
+          ],
+          [
+            13.4538939,
+            52.4641345
+          ],
+          [
+            13.4535847,
+            52.4641226
+          ],
+          [
+            13.4531871,
+            52.4641208
+          ],
+          [
+            13.4528005,
+            52.4641276
+          ],
+          [
+            13.4525786,
+            52.464131
+          ]
+        ]
+      },
+      "id": "way/24159676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/24258875",
+        "destination": "Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4502641,
+            52.4636576
+          ],
+          [
+            13.4503435,
+            52.4636342
+          ],
+          [
+            13.4504218,
+            52.4636401
+          ],
+          [
+            13.4505921,
+            52.4636602
+          ],
+          [
+            13.4508621,
+            52.4636735
+          ],
+          [
+            13.4511398,
+            52.4636863
+          ],
+          [
+            13.4514394,
+            52.4636901
+          ],
+          [
+            13.4518433,
+            52.4636955
+          ]
+        ]
+      },
+      "id": "way/24258875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27077724",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4495104,
+            52.4636804
+          ],
+          [
+            13.4481047,
+            52.4634232
+          ]
+        ]
+      },
+      "id": "way/27077724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27184257",
+        "bridge": "yes",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4518639,
+            52.4638747
+          ],
+          [
+            13.4520979,
+            52.4638681
+          ],
+          [
+            13.4523539,
+            52.4638534
+          ],
+          [
+            13.4525974,
+            52.4638152
+          ],
+          [
+            13.4528827,
+            52.4637634
+          ],
+          [
+            13.4531969,
+            52.463688
+          ],
+          [
+            13.4534007,
+            52.463617
+          ],
+          [
+            13.4535858,
+            52.4635432
+          ],
+          [
+            13.4537959,
+            52.4634359
+          ],
+          [
+            13.4539361,
+            52.4633602
+          ]
+        ]
+      },
+      "id": "way/27184257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31857943",
+        "destination": "Grenzallee",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt",
+        "turn:lanes": "left|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4563423,
+            52.464741
+          ],
+          [
+            13.456787,
+            52.4649832
+          ],
+          [
+            13.4568371,
+            52.4650183
+          ],
+          [
+            13.4569716,
+            52.465094
+          ]
+        ]
+      },
+      "id": "way/31857943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32655061",
+        "destination": "Hamburg;Tempelhof",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4563165,
+            52.4648717
+          ],
+          [
+            13.456235,
+            52.464802
+          ],
+          [
+            13.455759,
+            52.4645781
+          ],
+          [
+            13.4554561,
+            52.4644667
+          ],
+          [
+            13.4550765,
+            52.4643373
+          ],
+          [
+            13.4548486,
+            52.4642793
+          ],
+          [
+            13.4545918,
+            52.464225
+          ]
+        ]
+      },
+      "id": "way/32655061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32890426",
+        "destination": "Hamburg;Tempelhof;Buschkrugallee",
+        "destination:ref": "A 100",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4556167,
+            52.4618604
+          ],
+          [
+            13.4554793,
+            52.461951
+          ],
+          [
+            13.455157,
+            52.4623399
+          ]
+        ]
+      },
+      "id": "way/32890426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32890429",
+        "destination": "Magdeburg;Leipzig;Dresden;Frankfurt (Oder);Flughafen Schönefeld;Späthstraße",
+        "highway": "motorway",
+        "lanes": "4",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt",
+        "turn:lanes": "none|none|none|merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4553887,
+            52.4618012
+          ],
+          [
+            13.4556563,
+            52.4614969
+          ],
+          [
+            13.4568975,
+            52.4600027
+          ],
+          [
+            13.4570947,
+            52.4597884
+          ]
+        ]
+      },
+      "id": "way/32890429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83917718",
+        "destination": "Hamburg;Tempelhof",
+        "destination:ref": "A 100",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4545283,
+            52.4631042
+          ],
+          [
+            13.4543968,
+            52.463176
+          ],
+          [
+            13.4542224,
+            52.4633031
+          ],
+          [
+            13.4540475,
+            52.4634231
+          ]
+        ]
+      },
+      "id": "way/83917718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83917719",
+        "destination": "Dresden;Frankfurt (Oder);Treptow;Flughafen Schönefeld",
+        "highway": "motorway",
+        "lanes": "3",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4541629,
+            52.4631621
+          ],
+          [
+            13.4543941,
+            52.4629851
+          ],
+          [
+            13.4547035,
+            52.4626644
+          ],
+          [
+            13.4553353,
+            52.4619343
+          ],
+          [
+            13.4553887,
+            52.4618012
+          ]
+        ]
+      },
+      "id": "way/83917719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83917725",
+        "bridge": "yes",
+        "destination": "Grenzallee",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt",
+        "turn:lanes": "||merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4520676,
+            52.4636805
+          ],
+          [
+            13.4526172,
+            52.4637099
+          ],
+          [
+            13.4530251,
+            52.4637543
+          ],
+          [
+            13.4534216,
+            52.4638065
+          ],
+          [
+            13.4537215,
+            52.4638543
+          ],
+          [
+            13.4539613,
+            52.463906
+          ],
+          [
+            13.4543201,
+            52.4639896
+          ]
+        ]
+      },
+      "id": "way/83917725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83917726",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4506754,
+            52.4639975
+          ],
+          [
+            13.4505922,
+            52.4639505
+          ],
+          [
+            13.4504059,
+            52.4639084
+          ],
+          [
+            13.4497647,
+            52.4637789
+          ]
+        ]
+      },
+      "id": "way/83917726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/144909695",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof;Stubenrauchstraße;Adlershof;Wegedornstraße",
+        "hazmat": "no",
+        "hazmat:B": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Teltowkanalbrücke",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.520751,
+            52.4261086
+          ],
+          [
+            13.5205617,
+            52.4262826
+          ],
+          [
+            13.5204979,
+            52.4263376
+          ],
+          [
+            13.5203352,
+            52.4264732
+          ],
+          [
+            13.5198333,
+            52.4268056
+          ],
+          [
+            13.5192478,
+            52.4271276
+          ]
+        ]
+      },
+      "id": "way/144909695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155594905",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4477053,
+            52.4633531
+          ],
+          [
+            13.4467415,
+            52.4631916
+          ],
+          [
+            13.4457753,
+            52.4630487
+          ],
+          [
+            13.4455449,
+            52.4630234
+          ],
+          [
+            13.4451025,
+            52.4629815
+          ]
+        ]
+      },
+      "id": "way/155594905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155594908",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4451729,
+            52.4628659
+          ],
+          [
+            13.4457496,
+            52.4629318
+          ],
+          [
+            13.4461307,
+            52.4629762
+          ],
+          [
+            13.4464813,
+            52.4630266
+          ],
+          [
+            13.4476579,
+            52.4632216
+          ]
+        ]
+      },
+      "id": "way/155594908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223398478",
+        "destination": "Hamburg;Dresden;Flughafen",
+        "destination:lanes": "A 100|A 100|A 113",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4568414,
+            52.4651889
+          ],
+          [
+            13.4565946,
+            52.465036
+          ],
+          [
+            13.4563165,
+            52.4648717
+          ]
+        ]
+      },
+      "id": "way/223398478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229901568",
+        "destination": "Hamburg;Tempelhof;Buschkrugallee",
+        "highway": "motorway",
+        "lanes": "3",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 113",
+        "reg_name": "Teltowkanalautobahn",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.455157,
+            52.4623399
+          ],
+          [
+            13.4548586,
+            52.4627346
+          ],
+          [
+            13.4545283,
+            52.4631042
+          ]
+        ]
+      },
+      "id": "way/229901568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229981994",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "60",
+        "maxspeed:variable": "yes",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4476579,
+            52.4632216
+          ],
+          [
+            13.4477671,
+            52.4632374
+          ]
+        ]
+      },
+      "id": "way/229981994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253770361",
+        "destination": "Hamburg;Magdeburg;Leipzig;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4400369,
+            52.4628423
+          ],
+          [
+            13.4394803,
+            52.4628145
+          ],
+          [
+            13.4387687,
+            52.4627468
+          ],
+          [
+            13.4382101,
+            52.4626899
+          ],
+          [
+            13.4369525,
+            52.4625336
+          ],
+          [
+            13.4367707,
+            52.4625084
+          ],
+          [
+            13.4352734,
+            52.4623194
+          ],
+          [
+            13.4343239,
+            52.4622172
+          ],
+          [
+            13.4328257,
+            52.4620807
+          ],
+          [
+            13.4288266,
+            52.4618296
+          ],
+          [
+            13.4261066,
+            52.4614103
+          ],
+          [
+            13.4251411,
+            52.4613425
+          ],
+          [
+            13.4243689,
+            52.4613563
+          ],
+          [
+            13.4236057,
+            52.4614196
+          ],
+          [
+            13.4228251,
+            52.4615057
+          ],
+          [
+            13.4222944,
+            52.4615238
+          ],
+          [
+            13.4218022,
+            52.4615218
+          ],
+          [
+            13.4213064,
+            52.4614934
+          ],
+          [
+            13.420677,
+            52.4614197
+          ],
+          [
+            13.4200439,
+            52.4612984
+          ],
+          [
+            13.4198965,
+            52.4612613
+          ],
+          [
+            13.4191265,
+            52.4610648
+          ],
+          [
+            13.4183496,
+            52.4608841
+          ],
+          [
+            13.417859,
+            52.4608058
+          ],
+          [
+            13.4171175,
+            52.4607326
+          ],
+          [
+            13.4165503,
+            52.4607253
+          ]
+        ]
+      },
+      "id": "way/253770361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322543960",
+        "bridge": "yes",
+        "destination": "Hamburg;Tempelhof",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "2",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4525786,
+            52.464131
+          ],
+          [
+            13.4522263,
+            52.4641406
+          ],
+          [
+            13.451831,
+            52.4641303
+          ]
+        ]
+      },
+      "id": "way/322543960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322779843",
+        "destination": "Dresden;Frankfurt (Oder);Flughafen Schönefeld;Treptow;Grenzallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4400519,
+            52.4627179
+          ],
+          [
+            13.4412839,
+            52.462729
+          ]
+        ]
+      },
+      "id": "way/322779843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322779844",
+        "destination": "Dresden;Flughafen Schönefeld;Neukölln;Buschkrugallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "4",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "turn:lanes": "none|none|through|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4388123,
+            52.4626314
+          ],
+          [
+            13.439478,
+            52.4626883
+          ],
+          [
+            13.4400519,
+            52.4627179
+          ]
+        ]
+      },
+      "id": "way/322779844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322779845",
+        "destination": "Dresden;Flughafen Schönefeld;Neukölln;Buschkrugallee;Britzer Damm",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes",
+        "turn:lanes": "none|none|through;slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4261407,
+            52.4612764
+          ],
+          [
+            13.4288906,
+            52.4617089
+          ]
+        ]
+      },
+      "id": "way/322779845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322779846",
+        "destination": "Dresden;Flughafen Schönefeld;Neukölln;Buschkrugallee",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "layer": "-1",
+        "lit": "yes",
+        "maxspeed": "80",
+        "maxspeed:variable": "yes",
+        "name": "Tunnel Ortsteil Britz",
+        "oneway": "yes",
+        "ref": "A 100",
+        "reg_name": "Berliner Stadtring",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4288906,
+            52.4617089
+          ],
+          [
+            13.4328686,
+            52.4619631
+          ],
+          [
+            13.4343671,
+            52.4621061
+          ],
+          [
+            13.435316,
+            52.462204
+          ],
+          [
+            13.4369836,
+            52.4624071
+          ],
+          [
+            13.4371596,
+            52.4624318
+          ],
+          [
+            13.4382515,
+            52.4625705
+          ],
+          [
+            13.4388123,
+            52.4626314
+          ]
+        ]
+      },
+      "id": "way/322779846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/434582202",
+        "destination": "Grenzallee",
+        "highway": "motorway",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "40",
+        "oneway": "yes",
+        "ref": "A 100",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4558496,
+            52.4645022
+          ],
+          [
+            13.4561651,
+            52.4646695
+          ],
+          [
+            13.4563423,
+            52.464741
+          ]
+        ]
+      },
+      "id": "way/434582202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/434584655",
+        "destination": "Hamburg;Tempelhof",
+        "hazmat": "no",
+        "highway": "motorway",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "60",
+        "oneway": "yes",
+        "ref": "A 100",
+        "source:lit": "http://www.autobahn-bilder.de",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4497647,
+            52.4637789
+          ],
+          [
+            13.4495104,
+            52.4636804
+          ]
+        ]
+      },
+      "id": "way/434584655"
+    }
+  ]
+}

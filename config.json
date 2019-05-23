@@ -1,0 +1,98 @@
+{
+  "positions":{
+    "content":{
+      "x":0,
+      "y":0
+    },
+    "footer":{
+      "x":0,
+      "y":500
+    },
+    "navigation":{
+      "x":0,
+      "y":200
+    },
+    "map":{
+      "x":300,
+      "y":0,
+      "width": 700,
+      "height": 500,
+      "scale": 45000
+    }
+  },
+  "languages":["de","en"],
+  "content":[
+    {
+      "title": ["Transparenz", "Transparency"],
+      "nav": ["Transparenz", "Transparency"],
+      "description": ["Open Data gibt Bürger*innen Einblicke in Zusammenhänge und Strukturen der Stadt", "Through open data, citizens can learn more about their cities."],
+      "maps":[
+        {
+          "title": ["Breitband", "Broadband"],
+          "nav": ["Breitband", "Broadband"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "breitband.geojson",
+          "attribute": "p-all-50_mbit",
+          "legend": ["Verfügbarkeit von 50 mbit in Prozent", "Availability of 50 mbit in percentage"]
+        },
+        {
+          "title": ["Zuwendungsdatenbank", "Funding Database"],
+          "nav": ["Zuwendungen", "Funding"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "funding.geojson",
+          "attribute": "value"
+        }
+      ]
+    },
+    {
+      "title": ["Wirtschaft", "Business"],
+      "nav": ["Wirtschaft", "Business"],
+      "description": ["Unternehmen können offene Daten in ihren Geschäftsprozessen nutzen", "Businesses can integrate open data into their business models"],
+      "maps":[
+        {
+          "title": ["Einwohnerzahlen", "Inhabitants"],
+          "nav": ["Einwohner", "Inhabitants"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "breitband.geojson",
+          "attribute": "p-all-50_mbit",
+          "legend": ["Verfügbarkeit von 50 mbit in Prozent", "Availability of 50 mbit in percentage"]
+        },
+        {
+          "title": ["Gebäudealter", "Age of buildings"],
+          "nav": ["Gebäude", "Buildings"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "funding.geojson",
+          "attribute": "value"
+        }
+      ]
+    },
+    {
+      "title": ["Stadtplanung", "Urban Planning"],
+      "nav": ["Stadtplanung", "Urban Planning"],
+      "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+      "maps":[
+        {
+          "title": ["Kitas", "Daycare"],
+          "nav": ["Kitas", "Daycare"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "breitband.geojson",
+          "attribute": "p-all-50_mbit",
+          "legend": ["Verfügbarkeit von 50 mbit in Prozent", "Availability of 50 mbit in percentage"]
+        },
+        {
+          "title": ["Öffentlicher Nahverkehr", "Public Transport Network"],
+          "nav": ["ÖPNV", "Transport"],
+          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "type": "geojson",
+          "data": "funding.geojson",
+          "attribute": "value"
+        }
+      ]
+    }
+  ]
+}

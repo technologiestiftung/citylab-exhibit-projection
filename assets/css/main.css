@@ -1,0 +1,54 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+#map, #content, #footer, #navigation{
+  position: absolute;
+}
+
+#bezirksregionen path{
+  fill:transparent;
+  stroke:#000;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#bezirksgrenzen path {
+  fill:transparent;
+  stroke:#000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#footer img{
+  width:300px;
+  height:auto;
+}
+
+#navigation ul,
+#navigation li{
+  list-style: none;
+}
+
+#navigation li{
+  float:left;
+  margin:0 10px 0 0;
+  border:2px solid blue;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color:blue;
+}
+
+#navigation li.active{
+  background-color:blue;
+  color:white;
+}
+
+#navigation ul{
+  padding-top:10px;
+  clear:both;
+}
