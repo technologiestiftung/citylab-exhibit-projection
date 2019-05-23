@@ -67,8 +67,9 @@
           "nav": ["Gebäude", "Buildings"],
           "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
           "type": "geojson",
-          "data": "funding.geojson",
-          "attribute": "value"
+          "data": "gebaeudealter.geojson",
+          "attribute": "UEBERW_DEKADE_WOH_NEU",
+          "extent": [1900, 2005]
         }
       ]
     },
