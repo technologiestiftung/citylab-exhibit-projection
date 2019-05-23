@@ -58,8 +58,8 @@
           "nav": ["Einwohner", "Inhabitants"],
           "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
           "type": "geojson",
-          "data": "breitband.geojson",
-          "attribute": "p-all-50_mbit",
+          "data": "einwohnerdichte.geojson",
+          "attribute": "EW_HA2017",
           "legend": ["Verfügbarkeit von 50 mbit in Prozent", "Availability of 50 mbit in percentage"]
         },
         {
