@@ -25,12 +25,12 @@
     {
       "title": ["Transparenz", "Transparency"],
       "nav": ["Transparenz", "Transparency"],
-      "description": ["Open Data gibt Bürger*innen Einblicke in Zusammenhänge und Strukturen der Stadt", "Through open data, citizens can learn more about their cities."],
+      "description": ["Open Data liefert Bürger*innen Einblicke in Zusammenhänge und Strukturen der Stadt", "Open data offers citizens new insights into how their cities are structured and run."],
       "maps":[
         {
-          "title": ["Breitband", "Broadband"],
-          "nav": ["Breitband", "Broadband"],
-          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "title": ["Breitband", "Broadband Internet"],
+          "nav": ["Breitband", "Broadband Internet"],
+          "description": ["Internet-Geschwindigtkeit ist Thema worüber viele Berliner sich gerne beschweren. Aber was ist die Realität der Breitband-Versorgung in der Stadt? Diese Karte liefert einige Antworten.", "Internet speed is a beloved topic for Berliners to complain about – but just how good (or bad) is the provision of high-speed internet in Berlin? This map offers some answers."],
           "type": "geojson",
           "data": "breitband.geojson",
           "attribute": "p-all-50_mbit",
@@ -39,7 +39,7 @@
         {
           "title": ["Zuwendungsdatenbank", "Funding Database"],
           "nav": ["Zuwendungen", "Funding"],
-          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "description": ["Jedes Jahr fördert die Berliner Verwaltungen tausende Projekte durch öffentliche Zuwendungen. Diese Karte stellt dar, welche Postleitzahlen in Berlin das meiste Geld bekommen haben.", "Each year, the Berlin government awards millions of Euros to projects in the form of grants. This map shows which postal codes in Berlin receive the most amount of money."],
           "type": "geojson",
           "data": "funding.geojson",
           "attribute": "value",
@@ -49,13 +49,13 @@
       ]
     },
     {
-      "title": ["Wirtschaft", "Business"],
-      "nav": ["Wirtschaft", "Business"],
-      "description": ["Unternehmen können offene Daten in ihren Geschäftsprozessen nutzen", "Businesses can integrate open data into their business models"],
+      "title": ["Wirtschaft", "Private Sector"],
+      "nav": ["Wirtschaft", "Private Sector"],
+      "description": ["Offene Daten spielen eine wichtige Rolle für die Wirtschaft: Unternehmen können offene Daten in ihren Geschäftsprozessen einbeziehen oder neue Produkte darauf basieren.", "Open data can play a crucial role in supporting a city's private sector, as businesses can use this data to bolster their business models or develop new products."],
       "maps":[
         {
-          "title": ["Einwohnerzahlen", "Inhabitants"],
-          "nav": ["Einwohner", "Inhabitants"],
+          "title": ["Einwohnerzahlen", "Number of Residents"],
+          "nav": ["Einwohner", "Number of Residents"],
           "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
           "type": "geojson",
           "data": "einwohnerdichte.geojson",
