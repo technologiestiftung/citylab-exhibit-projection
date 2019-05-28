@@ -116,8 +116,8 @@
           "nav": ["Wohndauer", "Duration of residency"],
           "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
           "type": "geojson",
-          "data": "wohndauer.geojson",
-          "attribute": "wohndauer_PDAU5_int",
+          "data": "wohndauer_planungsraeume.geojson",
+          "attribute": "wohndauer_PDAU5",
           "legend": ["Anteil der Einwohner mit mindestens 5 Jahren Wohndauer", "Percentage of Inhabitants living there for at least 5 years"]
 
         }
