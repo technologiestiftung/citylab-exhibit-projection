@@ -71,6 +71,7 @@
           "type": "geojson",
           "data": "stromverbrauch.geojson",
           "attribute": "verbr_gesamt",
+          "extent": [0, 200],
           "legend": ["Gesamtverbrauch in GWh", "Total consumption in GWh"]
         },
         {
@@ -80,6 +81,7 @@
           "type": "geojson",
           "data": "solarthermie_plz.geojson",
           "attribute": "anzahl",
+          "extent": [0, 150],
           "legend": ["Anzahl Solarthermie-Anlagen", "Number of solar power installations"]
 
         }
@@ -109,8 +111,9 @@
           "type": "geojson",
           "data": "uber65.geojson",
           "attribute": "uber65_pr",
+          "extent": [0, 30],
           "legend": ["Prozentualer Anteil an Einwohner*innen über 65 Jahren", "Percentage of citizens being 65 years or older"]
-
+          
         },
         {
           "title": ["Wohndauer", "Long-time Residents"],
@@ -119,6 +122,7 @@
           "type": "geojson",
           "data": "wohndauer_planungsraeume.geojson",
           "attribute": "wohndauer_PDAU5",
+          "extent": [20, 70],
           "legend": ["Anteil der Einwohner mit mindestens 5 Jahren Wohndauer", "Percentage of Inhabitants living there for at least 5 years"]
 
         }
