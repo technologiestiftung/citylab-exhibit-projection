@@ -30,7 +30,7 @@
         {
           "title": ["Breitband", "Broadband Internet"],
           "nav": ["Breitband", "Broadband Internet"],
-          "description": ["Internet-Geschwindigtkeit ist ein Thema über das viele Berliner <br> sich gerne beschweren. Aber was ist die <br> Realität der Breitband-Versorgung in der Stadt? <br> Diese Karte liefert einige Antworten.", "Internet speed is a beloved topic for Berliners to <br> complain about – but just how good (or bad) is the <br> provision of high-speed internet in Berlin? <br> This map offers some answers."],
+          "description": ["Internet-Geschwindigtkeit ist ein Thema über das viele Berliner <br> sich gerne beschweren. Aber wie sieht <br> die Breitband-Versorgung tatsächlich aus in der Stadt? <br> Diese Karte liefert einige Antworten.", "Internet speed is a beloved topic for Berliners to <br> complain about – but just how good (or bad) is the <br> provision of high-speed internet in Berlin? <br> This map offers some answers."],
           "type": "geojson",
           "data": "breitband.geojson",
           "attribute": "p-all-50_mbit",
@@ -58,7 +58,7 @@
         {
           "title": ["Einwohnerzahlen", "Population Density"],
           "nav": ["Einwohner", "Population Density"],
-          "description": ["Für viele Firmen ist es wertvoll nicht nur zu wissen, <br> wo die Menschen wohnen, sondern auch zu wissen, <br>wo die Dichtheiten von Einwohner am höchsten sind. <br>Diese Karte zeigt, wo in Berlin die Einwohnerdichte <br> am höchsten ist.", "Knowing where Berliners live – and specifically, <br> where the highest concentrations of residents are, <br> is valuable information for companies to have. <br> This map shows where the population density in <br> Berlin is highest."],
+          "description": ["Wo leben die Berliner*innen - <br> genauer gesagt, wo ist die Einwohner*innendichte am höchsten? <br> Dies sind wichtige Informationen für Firmen. <br> Diese Karte zeigt wo die Bevölkerungsdichte am höchten ist.", "Knowing where Berliners live – and specifically, <br> where the highest concentrations of residents are, <br> is valuable information for companies to have. <br> This map shows where the population density in <br> Berlin is highest."],
           "type": "geojson",
           "data": "einwohnerdichte.geojson",
           "attribute": "EW_HA2017",
@@ -67,7 +67,7 @@
         {
           "title": ["Stromverbrauch", "Energy consumption"],
           "nav": ["Stromverbrauch", "Energy Use"],
-          "description": ["In Berlin streben zahlreiche Startups und etablierte Firmen <br> nach einem moderneren Energiesektor. Durch Daten <br> zu Stromverbrauch, wie hier auf der Karte dargestellt, <br> können diese Unternehmen wertvolle Einblicke gewinnen.", "Berlin is home to numerous startups and established <br> companies with a focus on modernizing the energy sector. <br> Data on electricity consumption, as seen here on this map, <br> offers useful insights for such companies."],
+          "description": ["In Berlin streben zahlreiche Startups und etablierte Firmen <br> nach einem moderneren Energiesektor. Durch Daten <br> zum Stromverbrauch, wie hier auf der Karte dargestellt, <br> können diese Unternehmen wertvolle Einblicke gewinnen.", "Berlin is home to numerous startups and established <br> companies with a focus on modernizing the energy sector. <br> Data on electricity consumption, as seen here on this map, <br> offers useful insights for such companies."],
           "type": "geojson",
           "data": "stromverbrauch.geojson",
           "attribute": "verbr_gesamt",
@@ -76,7 +76,7 @@
         {
           "title": ["Anzahl Solaranlagen (Solarthermie)", "Number of Solar Power Installations"],
           "nav": ["Solar", "Solar Power"],
-          "description": ["Welche Teile Berlins spielen eine Aktive Rolle in der Generierung <br> von Solarenergie? Diese Karte zeigt die Postleitzahlen<br> mit der höchsten Anzahl an Solaranlagen,<br> wertvolle Informationen für Firmen in diesem Bereich.", "Which parts of Berlin are most active in generating solar energy? <br> This map shows which postal codes have the highest number<br> of solar energy-generating installations – valuable information <br> for companies working in this field."],
+          "description": ["Welche Teile Berlins spielen eine aktive Rolle in der Generierung <br> von Solarenergie? Diese Karte stellt <br> die Anzahl an Solaranlagen je PLZ dar,<br> wertvolle Informationen für Firmen in diesem Bereich.", "Which parts of Berlin are most active in generating solar energy? <br> This map shows which postal codes have the highest number<br> of solar energy-generating installations – valuable information <br> for companies working in this field."],
           "type": "geojson",
           "data": "solarthermie_plz.geojson",
           "attribute": "anzahl",
@@ -95,26 +95,27 @@
         {
           "title": ["Gebäudealter", "Age of Buildings"],
           "nav": ["Gebäude", "Building Age"],
-          "description": ["In ihrer Geschichte hat die Stadt Berlin viele Perioden von <br> Zerstörung und Entwicklung erlebt. Wenn man die Aufteilung <br> des Gebäudealters in der Stadt anschaut, wie hier auf der <br> Karte dargestellt, gewinnt man eine Perspektive darin, <br> wie Berlin zur der heutigen Stadt geworden ist.", "Berlin is a city that has seen many historical waves of <br> destruction and development. Looking at the age of buildings <br> across the city, as visualized here, is one way to understand <br> how Berlin has grown and developed into the city it is today."],
+          "description": ["In ihrer Geschichte hat die Stadt Berlin viele Perioden von <br> Zerstörung und Entwicklung erlebt. Wenn man die Aufteilung <br> des Gebäudealters in der Stadt anschaut, wie hier auf der <br> Karte dargestellt, erhält man einen Eindruck davon, <br> wie Berlin zur der heutigen Stadt geworden ist.", "Berlin is a city that has seen many historical waves of <br> destruction and development. Looking at the age of buildings <br> across the city, as visualized here, is one way to understand <br> how Berlin has grown and developed into the city it is today."],
           "type": "geojson",
           "data": "gebaeudealter.geojson",
           "attribute": "UEBERW_DEKADE_WOH_NEU",
           "extent": [1900, 2005]
         },
         {
-          "title": ["Grünanlagenversorgung", "Access to Parks and Nature"],
-          "nav": ["Grünanlagen", "Parks & Nature"],
-          "description": ["Lirum larum Löffelstielf", "Lirum larum Löffelstielf"],
+          "title": ["Einwohner*innen über 65 Jahre", "Citizens 65 years and older"],
+          "nav": ["Senior*innen", "Senior Citizens"],
+          "description": ["Braucht ein Kiez mehr Spielplätze, <br> oder ist der Bedarf an barrierefreien Wohnungen höher? <br> Die Altersstruktur der Einwohner*innen <br> sind wichtige Indize für diese Entscheidungen.", 
+            "Does a given neighborhood have a greater need for more playgrounds <br> or more accessible living spaces? The age distribution of citizens <br> is a major factor to be considered in such decisions."],
           "type": "geojson",
-          "data": "gruenanlagenversorgung.geojson",
-          "attribute": "category_int",
-          "legend": ["Anzahl Solarthermie-Anlagen", "Amount of Solar Power Plants"]
+          "data": "uber65.geojson",
+          "attribute": "uber65_pr",
+          "legend": ["Prozentualer Anteil an Einwohner*innen über 65 Jahren", "Percentage of citizens being 65 years or older"]
 
         },
         {
           "title": ["Wohndauer", "Long-time Residents"],
           "nav": ["Wohndauer", "Long-time Residents"],
-          "description": ["Viele Berliner haben sich an den Zyklus der ständigen Einziehen <br> und Ausziehen von Einwohner in ihrem Stadtteil gewöhnt. In der <br> Realität sind aber nicht alle Stadtteile von diesem Trend gleich <br> betroffen. Diese Karte zeigt, wo man den höchsten Anteil <br> an Einwohner mit einem Wohndauer von mindestens <br> 5 Jahren findest.", "Most Berliners are used to a constant cycle of people moving <br> in and out of their neighborhoods. But in reality, not all parts of <br> the city are equally affected by this fluctuation. This map <br> shows where in Berlin you'll find the highest percentage <br> of residents who have lived there at least five years."],
+          "description": ["Viele Berliner haben sich an den ständigen Wechsel <br> der Nachbar*innen in ihrem Stadtteil gewöhnt. <br> Tatsächlich ist die Fluktuation sehr unterschiedlich <br> in den verschiedenen Stadtteilen. Diese Karte zeigt, <br> wo man den höchsten Anteil an Einwohner*innen <br> mit einer Wohndauer von mindestens <br> 5 Jahren findet.", "Most Berliners are used to a constant cycle of people moving <br> in and out of their neighborhoods. But in reality, not all parts of <br> the city are equally affected by this fluctuation. This map <br> shows where in Berlin you'll find the highest percentage <br> of residents who have lived there at least five years."],
           "type": "geojson",
           "data": "wohndauer_planungsraeume.geojson",
           "attribute": "wohndauer_PDAU5",
