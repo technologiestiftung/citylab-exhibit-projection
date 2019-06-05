@@ -1,23 +1,23 @@
 {
   "positions":{
     "content":{
-      "x":0,
-      "y":0
+      "x":200,
+      "y":50
     },
     "footer":{
-      "x":0,
-      "y":500
+      "x":200,
+      "y":900
     },
     "navigation":{
-      "x":0,
+      "x":200,
       "y":200
     },
     "map":{
-      "x":300,
-      "y":0,
-      "width": 700,
-      "height": 500,
-      "scale": 45000
+      "x":600,
+      "y":-30,
+      "width": 1250,
+      "height": 1080,
+      "scale": 100000
     }
   },
   "languages":["de","en"],

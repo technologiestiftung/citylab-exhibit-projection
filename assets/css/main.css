@@ -2,6 +2,11 @@
   font-family: Helvetica, Arial, sans-serif;
   margin:0;
   padding:0;
+  color:white;
+}
+
+body{
+  background-color:#000;
 }
 
 #map, #content, #footer, #navigation{
@@ -25,7 +30,7 @@
 }
 
 #footer img{
-  width:300px;
+  width:400px;
   height:auto;
 }
 
@@ -37,15 +42,15 @@
 #navigation li{
   float:left;
   margin:0 10px 0 0;
-  border:2px solid blue;
+  border:2px solid white;
   padding: 3px 5px;
   border-radius: 4px;
-  color:blue;
+  color:white;
 }
 
 #navigation li.active{
-  background-color:blue;
-  color:white;
+  background-color:white;
+  color:black;
 }
 
 #navigation ul{
