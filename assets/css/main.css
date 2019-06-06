@@ -7,6 +7,9 @@
 
 body{
   background-color:#000;
+  margin:0;
+  padding:0;
+  overflow:hidden;
 }
 
 #map, #content, #footer, #navigation{
@@ -15,7 +18,7 @@ body{
 
 #bezirksregionen path{
   fill:transparent;
-  stroke:transparent;
+  stroke:#000;
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -23,7 +26,7 @@ body{
 
 #bezirksgrenzen path {
   fill:transparent;
-  stroke:transparent;
+  stroke:#000;
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
