@@ -43,7 +43,11 @@ d3.json("config.json")
 			.style("top", config.positions.map.y + "px")
 			.append("svg")
 				.attr("width", width)
-				.attr("height", height);
+				.attr("height", height)
+				.style("height", config.positions.map.sheight)
+				.style("width", config.positions.map.swidth)
+				.attr("preserveAspectRatio", "none")
+				.attr("viewBox", `0 0 ${width} ${height}`);
 
 		dataLayer = map.append("g")
 			.attr("id", "dataLayer");

@@ -15,7 +15,7 @@ body{
 
 #bezirksregionen path{
   fill:transparent;
-  stroke:#000;
+  stroke:transparent;
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -23,7 +23,7 @@ body{
 
 #bezirksgrenzen path {
   fill:transparent;
-  stroke:#000;
+  stroke:transparent;
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
