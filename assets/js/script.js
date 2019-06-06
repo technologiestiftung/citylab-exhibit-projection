@@ -20,7 +20,7 @@ d3.json("config.json")
 
 		// Position elements
 
-		(["content", "footer", "navigation"]).forEach((item) => {
+		(["content", "footer"]).forEach((item) => {
 			d3.select(`#${item}`)
 				.style("left", config.positions[item].x + "px")
 				.style("top", config.positions[item].y + "px");
