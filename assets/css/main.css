@@ -10,6 +10,7 @@
 body {
   background-color:#000;
   margin:0;
+  touch-action: none;
   padding:0;
   overflow:hidden;
   font-family: 'IBM Plex Sans';
