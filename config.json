@@ -20,6 +20,12 @@
       "width": 1250,
       "height": 1080,
       "scale": 100000
+    },
+    "legend":{
+      "x": 500,
+      "y": 100,
+      "height": 150,
+      "width": 20
     }
   },
   "languages":["de","en"],
@@ -41,12 +47,12 @@
         {
           "title": ["Zuwendungsdatenbank", "Funding Database"],
           "nav": ["Zuwendungen", "Funding"],
-          "description": ["Jedes Jahr fördert die Berliner Verwaltungen tausende  Projekte durch öffentliche Zuwendungen.  Diese Karte stellt dar, welche Postleitzahlen in Berlin  das meiste Geld bekommen haben.", "Each year, the Berlin government awards millions  of Euros to projects in the form of grants. This map  shows which postal codes in Berlin receive  the most amount of money."],
+          "description": ["Jedes Jahr fördert die Berliner Verwaltungen tausende Projekte durch öffentliche Zuwendungen. Diese Karte stellt dar, welche Postleitzahlen zwischen 2009 und 2017 in Berlin das meiste Geld bekommen haben.", "Each year, the Berlin government awards millions of Euros to projects in the form of grants. This map shows which postal codes in Berlin receive the most amount of money between 2009 and 2017."],
           "type": "geojson",
           "data": "funding.geojson",
           "attribute": "value",
           "extent": [0, 255732383],
-          "colors": ["rgba(11,138,221,0.1)","rgba(11,138,221,1)"]
+          "legend": ["Zuwendungen in Euro","Funding in Euro"]
         }
       ]
     },
@@ -103,7 +109,8 @@
           "type": "geojson",
           "data": "gebaeudealter.geojson",
           "attribute": "UEBERW_DEKADE_WOH_NEU",
-          "extent": [1900, 2005]
+          "extent": [1900, 2005],
+          "legend": ["Baujahr","Year of construction"]
         },
         {
           "title": ["Einwohner*innen über 65 Jahre", "Citizens 65 years and older"],

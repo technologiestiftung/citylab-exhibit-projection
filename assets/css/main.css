@@ -15,7 +15,7 @@ body {
   font-family: 'IBM Plex Sans';
 }
 
-#map, #content, #footer, #navigation{
+#map, #content, #footer, #navigation, #legend{
   position: absolute;
 }
 
@@ -122,4 +122,13 @@ div#content {
 
 .title {
   font-size: 48px;
+}
+
+#legend text{
+  fill:#fff;
+  font-size:12px;
+}
+
+#legend svg{
+  overflow:visible;
 }

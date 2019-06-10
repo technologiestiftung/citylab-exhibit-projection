@@ -8,6 +8,8 @@ let config,
 		dataLayer = false,
 		navContent,
 		navMap,
+		legend,
+		datas = {},
 		state = {
 			content:0,
 			map:0
@@ -65,8 +67,17 @@ d3.json("config.json")
 					.on("click", (d, i) => {
 						updateNav(i, 0);
 					});
-		
-		updateNav(0,0);
+
+		config.content.forEach((contentEl, contentId) => {
+			config.content[contentId].maps.forEach((mapEl, mapId) => {
+				preloadMap(contentId, mapId);
+			});
+		});
+
+		legend = d3.select("#legend")
+			.style("top", config.positions.legend.y + "px")
+			.style("left", config.positions.legend.x + "px")
+			.append("svg");
 
 		// Setup Language Switch
 
@@ -76,7 +87,11 @@ d3.json("config.json")
 				switchLang(parseInt(d.value));
 			});
 		
-		switchLang(0);
+		setTimeout(() => {
+			updateNav(0,0);
+			switchLang(0);
+		}, 3000);
+			
 
 	})
 	.catch((err) => {
@@ -101,7 +116,7 @@ const updateNav = (contentState, mapState) => {
 				.classed("active", (d,i) => (i===state.map) ? true : false)
 				.on("click", (d, i) => {
 					updateNav(state.content, i);
-				});
+				});	
 
 	makeMap(state.content, state.map);
 }
@@ -158,12 +173,64 @@ const makeMap = (contentId, mapId) => {
 	d3.select("#content-title").html(mapConfig.title[lang]);
 	d3.select("#content-description").html(mapConfig.description[lang]);
 
-	dataLayer.selectAll("*").remove();
-
 	// Make Map
+	d3.selectAll("g.map")
+		.style("display", "none");
+	
+	d3.select("#g" + contentId + "-" + mapId)
+		.style("display", "block");
+	
+	legend.selectAll("*").remove();
+
+	const gradient = legend.append("defs").append("linearGradient")
+				.attr("id", "gradient")
+				.attr("x1", 0)
+				.attr("x2", 0)
+				.attr("y1", 0)
+				.attr("y2", 1);
+	
+	gradient.append("stop")
+				.attr("offset", "0%")
+				.attr("stop-color", ("colors" in mapConfig) ? mapConfig.colors[0] : "#0042FF");
+	
+	gradient.append("stop")
+				.attr("offset", "100%")
+				.attr("stop-color", ("colors" in mapConfig) ? mapConfig.colors[1] : "#FF003F");
+
+	legend.append("text")
+				.attr("transform", "translate(" + (config.positions.legend.width + 10) + ", 0) rotate(90)")
+				.text(config.content[state.content].maps[state.map].legend[lang]);
+
+	legend.append("rect")
+				.attr("x", 0)
+				.attr("y", 0)
+				.style("fill", "url(#gradient)")
+				.attr("width", config.positions.legend.width)
+				.attr("height", config.positions.legend.height);
+	
+	legend.append("text")
+				.attr("text-anchor", "end")
+				.attr("transform", "translate(-10," + config.positions.legend.height + ")")
+				.text(("extent" in mapConfig) ? mapConfig.extent[0] + " <" : d3.min(datas[contentId][mapId].features, (d) => d.properties[mapConfig.attribute]).toFixed(2));
+	
+	legend.append("text")
+				.attr("text-anchor", "end")
+				.attr("transform", "translate(-10,12)")
+				.text(("extent" in mapConfig) ? mapConfig.extent[1] + " >" : d3.max(datas[contentId][mapId].features, (d) => d.properties[mapConfig.attribute]).toFixed(2));
+
+	
+}
+
+const preloadMap = (contentId, mapId) => {
+	const mapConfig = config.content[contentId].maps[mapId];
 
 	d3.json("data/" + mapConfig.data)
 		.then(data => {
+
+			if (!(contentId in datas)) {
+				datas[contentId] = {};
+			}
+			datas[contentId][mapId] = data;		
 
 			// make sure the attribute column is a number
 			data.features.forEach((d) => {
@@ -174,7 +241,12 @@ const makeMap = (contentId, mapId) => {
 				.domain(("extent" in mapConfig) ? mapConfig.extent : d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
 				.range(("colors" in mapConfig) ? mapConfig.colors : ["#0042FF", "#FF003F"]);
 
-			dataLayer.selectAll("path")
+			const g = dataLayer.append("g")
+				.attr("id", "g" + contentId + "-" + mapId)
+				.classed("map", true)
+				.style("display", "none");
+
+			g.selectAll("path")
 				.data(data.features)
 				.enter()
 				.append("path")
