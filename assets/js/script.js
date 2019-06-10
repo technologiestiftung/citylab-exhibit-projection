@@ -218,11 +218,11 @@ const makeMap = (contentId, mapId) => {
 	
 	gradient.append("stop")
 				.attr("offset", "0%")
-				.attr("stop-color", (config.colorScale[0]));
+				.attr("stop-color", (config.colorScale[1]));
 	
 	gradient.append("stop")
 				.attr("offset", "100%")
-				.attr("stop-color", (config.colorScale[1]));
+				.attr("stop-color", (config.colorScale[0]));
 
 	legend.append("text")
 				.attr("transform", "translate(" + (config.positions.legend.width + 10) + ", 0) rotate(90)")
