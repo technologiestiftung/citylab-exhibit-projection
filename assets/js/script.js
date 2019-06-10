@@ -7,12 +7,13 @@ let config,
 		hasBase = false,
 		dataLayer = false,
 		navContent,
+		navLabels = [],
 		navMap,
 		legend,
 		datas = {},
 		state = {
 			content:0,
-			map:0
+			map:2
 		},
 		lang = 0;
 
@@ -88,9 +89,15 @@ d3.json("config.json")
 			});
 		
 		setTimeout(() => {
-			updateNav(0,0);
+			updateNav(2,0);
 			switchLang(0);
-		}, 3000);
+
+			let labelCategory = d3.select("#nav-label-category")
+			let labelFilter = d3.select("#nav-label-filter")
+			let labelLang = d3.select("#nav-label-lang")
+
+			navLabels.push(labelCategory, labelFilter, labelLang);
+		}, 3200);
 			
 
 	})
@@ -124,11 +131,16 @@ const updateNav = (contentState, mapState) => {
 const switchLang = (inputLang) => {
 	lang = inputLang;
 
+	
 	d3.selectAll("#lang-navigation li")
-		.classed("active", (d) => (lang == d.value) ? true : false);
-
+	.classed("active", (d) => (lang == d.value) ? true : false);
+	
 	navContent.text((d) => d.nav[lang]);
 	navMap.text((d) => d.nav[lang]);
+	
+	navLabels.forEach((label,i) => {
+		label.text(config.labels[i][lang]);
+	})
 
 	makeMap(state.content, state.map);
 };
@@ -168,7 +180,6 @@ const makeMap = (contentId, mapId) => {
 	const mapConfig = config.content[contentId].maps[mapId];
 
 	// Set Texts
-
 	d3.select("#content-topic").html(config.content[contentId].title[lang]);
 	d3.select("#content-title").html(mapConfig.title[lang]);
 	d3.select("#content-description").html(mapConfig.description[lang]);
@@ -191,11 +202,11 @@ const makeMap = (contentId, mapId) => {
 	
 	gradient.append("stop")
 				.attr("offset", "0%")
-				.attr("stop-color", ("colors" in mapConfig) ? mapConfig.colors[0] : "#0042FF");
+				.attr("stop-color", (config.colorScale[0]));
 	
 	gradient.append("stop")
 				.attr("offset", "100%")
-				.attr("stop-color", ("colors" in mapConfig) ? mapConfig.colors[1] : "#FF003F");
+				.attr("stop-color", (config.colorScale[1]));
 
 	legend.append("text")
 				.attr("transform", "translate(" + (config.positions.legend.width + 10) + ", 0) rotate(90)")
@@ -237,9 +248,15 @@ const preloadMap = (contentId, mapId) => {
 				d.properties[mapConfig.attribute] = parseFloat(d.properties[mapConfig.attribute]);
 			});
 
-			const scale = d3.scaleLinear()
+
+			const colorScale = d3.scaleLinear()
 				.domain(("extent" in mapConfig) ? mapConfig.extent : d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
-				.range(("colors" in mapConfig) ? mapConfig.colors : ["#0042FF", "#FF003F"]);
+                .range(config.colorScale)
+                .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+
+			// const scale = d3.scaleLinear()
+			// 	.domain(("extent" in mapConfig) ? mapConfig.extent : d3.extent(data.features, (d) => d.properties[mapConfig.attribute]))
+			// 	.range(("colors" in mapConfig) ? mapConfig.colors : ["#0042FF", "#FF003F"]);
 
 			const g = dataLayer.append("g")
 				.attr("id", "g" + contentId + "-" + mapId)
@@ -252,7 +269,7 @@ const preloadMap = (contentId, mapId) => {
 				.append("path")
 					.attr("d", path)
 					.attr("fill", (d) => {
-						return scale(d.properties[mapConfig.attribute]);
+						return colorScale(d.properties[mapConfig.attribute]);
 					});
 
 		})

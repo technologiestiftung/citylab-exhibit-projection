@@ -1,4 +1,5 @@
 {
+  "colorScale": ["#67a9cf", "#ef8a62"],
   "positions":{
     "content":{
       "x":200,
@@ -22,13 +23,14 @@
       "scale": 100000
     },
     "legend":{
-      "x": 500,
-      "y": 100,
+      "x": 1700,
+      "y": 50,
       "height": 150,
       "width": 20
     }
   },
   "languages":["de","en"],
+  "labels": [["Kategorie", "Category"], ["Filter", "Filter"], ["Sprache", "Language"]],
   "content":[
     {
       "title": ["Transparenz", "Transparency"],
