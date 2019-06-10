@@ -19,6 +19,11 @@ body {
   position: absolute;
 }
 
+#navigation {
+  left: 200px;
+  top: 500px;
+}
+
 div#content {
   width: 550px;
 }
@@ -138,4 +143,68 @@ div#content {
 
 #legend svg{
   overflow:visible;
+}
+
+#overlay-wrapper {
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+#overlay-wrapper.active {
+  opacity: 1;
+  transition: opacity .25s ease;
+}
+
+.overlay01 {
+  top: -40px;
+  left: 640px;
+  width: 1450px;
+  height: 1170px;
+  background: black;
+  position: absolute;
+  z-index: 1;
+}
+
+.spinner-wrapper {
+  position: absolute;
+  left: 1310px;
+  top: 310px;
+  z-index: 10;
+}
+
+.spinner-wrapper > span {
+  top: -50px;
+  transform: translateY(212px) translateX(-10px);
+  width: 200px;
+  position: absolute;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #fff;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
 }

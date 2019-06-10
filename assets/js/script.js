@@ -13,7 +13,8 @@ let config,
 		datas = {},
 		state = {
 			content:0,
-			map:2
+			map:2,
+			overlay: 0
 		},
 		lang = 0;
 
@@ -67,6 +68,8 @@ d3.json("config.json")
 					.text((d) => d.nav[lang])
 					.on("click", (d, i) => {
 						updateNav(i, 0);
+						// updateOverlay(1);
+						// console.log('click')
 					});
 
 		config.content.forEach((contentEl, contentId) => {
@@ -127,6 +130,19 @@ const updateNav = (contentState, mapState) => {
 
 	makeMap(state.content, state.map);
 }
+
+const updateOverlay = (state) => {
+	state.overlay = state;
+
+	console.log(d3.select('#overlay-wrapper'), state)
+
+	d3.select('#overlay-wrapper').classed('active', d => { return state == 0 ? false : true });
+	
+	setTimeout(() => {
+		d3.select('#overlay-wrapper').classed('active', d => { 0 ? false : true });
+
+	}, 1500)
+} 
 
 const switchLang = (inputLang) => {
 	lang = inputLang;
