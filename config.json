@@ -49,7 +49,7 @@
         {
           "title": ["Zuwendungsdatenbank", "Funding Database"],
           "nav": ["Zuwendungen", "Funding"],
-          "description": ["Jedes Jahr fördert die Berliner Verwaltungen tausende Projekte durch öffentliche Zuwendungen. Diese Karte stellt dar, welche Postleitzahlen zwischen 2009 und 2017 in Berlin das meiste Geld bekommen haben.", "Each year, the Berlin government awards millions of Euros to projects in the form of grants. This map shows which postal codes in Berlin receive the most amount of money between 2009 and 2017."],
+          "description": ["Jedes Jahr fördert die Berliner Verwaltungen tausende Projekte durch öffentliche Zuwendungen. Diese Karte stellt dar, welche Postleitzahlen zwischen 2009 und 2017 in Berlin das meiste Geld bekommen haben. <br> Datenquelle: Senatsverwaltung für Finanzen, https://daten.berlin.de/datensaetze/zuwendungsdatenbank", "Each year, the Berlin government awards millions of Euros to projects in the form of grants. This map shows which postal codes in Berlin receive the most amount of money between 2009 and 2017."],
           "type": "geojson",
           "data": "funding.geojson",
           "attribute": "value",
